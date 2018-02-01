@@ -1,7 +1,1 @@
----
-layout: page
-title: About
-permalink: /about/
----
-
-This is the base Jekyll theme.
+My name is Martin Bammer and I'm working at Bosch as a senior software engineer. I've written many programs in different languages like C, C++, Java, etc., but since a few years I'm in love with Python.
