@@ -16,4 +16,4 @@ github_username:  brmmm3
 # Build settings
 markdown: kramdown
 
-theme: jekyll-theme-cayman
+theme:
