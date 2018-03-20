@@ -1,13 +1,13 @@
 ---
 layout: page
 title: About
-tagline: A few more words about this theme
+tagline: Me
 permalink: /about.html
 ---
 
-This is the _Cayman Blog_ Jekyll theme. You can find out more info about customizing this theme, as well as basic usage documentation, and source code at: [cayman-blog](https://github.com/lorepirri/cayman-blog)
+Livin' in Austria.
 
-You can find the source code for _Jekyll_ at [jekyll](https://github.com/jekyll/jekyll)
+You can find the sources of some of my projects at [brmmm3](https://github.com/brmmm3)
 
 
 [Go to the Home Page]({{ site.url }}{{ site.baseurl }})
