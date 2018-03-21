@@ -1,11 +1,33 @@
-title: Speed matters
-description: A blog about writing fast Python code
+# Permalinks
+#
+
+markdown:       kramdown
+
+highlighter:    rouge
+
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:      pretty
+
+# Setup
+title:          Speed matters
+description:    A blog about writing fast Python code
 show_downloads: true
 
-baseurl: /
-url: "https://brmmm3.github.io"
+url:            https://brmmm3.github.io
+paginate:       1
+baseurl:        /
 
-google_analytics:
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:     _sass
+  style:        :compressed
+
+# About/contact
+author:
+  name:              Martin Bammer
+  email:             mrbm74@gmail.com
 
 blog:
   date_format: "%-d %b %Y"
@@ -16,8 +38,14 @@ highlighter: rouge
 
 kramdown:
   syntax_highlighter: rouge
-  
+
+pages_list:       {'About':'/about','Archive':'/archive','Feed':'/atom.xml'}
+
 gems:
   - rouge
   - jekyll-feed
   - jemoji
+  - jekyll-sitemap
+
+plugins:
+  - jekyll-paginate
