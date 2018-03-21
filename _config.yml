@@ -2,7 +2,7 @@ title: Speed matters
 description: A blog about writing fast Python code
 show_downloads: true
 
-baseurl: "/blog"
+baseurl: /
 url: "https://brmmm3.github.io"
 
 google_analytics:
