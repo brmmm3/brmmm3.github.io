@@ -24,28 +24,18 @@ sass:
   sass_dir:     _sass
   style:        :compressed
 
-# About/contact
-author:
-  name:              Martin Bammer
-  email:             mrbm74@gmail.com
 
 blog:
   date_format: "%-d %b %Y"
 
-theme: jekyll-theme-cayman
+theme: # leave it empty
 
 highlighter: rouge
 
 kramdown:
   syntax_highlighter: rouge
 
-pages_list:       {'About':'/about','Archive':'/archive','Feed':'/atom.xml'}
-
-gems:
+plugins:
   - rouge
   - jekyll-feed
-  - jemoji
-  - jekyll-sitemap
-
-plugins:
   - jekyll-paginate
