@@ -7,9 +7,6 @@ url: "https://brmmm3.github.io"
 
 google_analytics:
 
-plugins:
-  - jekyll-feed
-
 blog:
   date_format: "%-d %b %Y"
 
@@ -22,3 +19,5 @@ kramdown:
   
 gems:
   - rouge
+  - jekyll-feed
+  - jemoji
