@@ -1,5 +1,7 @@
-# Permalinks
-#
+title:          Speed matters blog
+description:    A blog about writing fast Python code
+author: Martin Bammer
+author_email: mrbm74@gmail.com
 
 markdown:       kramdown
 
@@ -8,9 +10,6 @@ highlighter:    rouge
 # Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:      pretty
 
-# Setup
-title:          Speed matters
-description:    A blog about writing fast Python code
 show_downloads: true
 
 url:            https://brmmm3.github.io
