@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Contact
-tagline: Martin Bammer
+tagline: Marty B.
 ---
 
 I’m a senior software engineer based in Austria (NOT Australia -> no cangaroos!).
