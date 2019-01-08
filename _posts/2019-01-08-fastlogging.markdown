@@ -2,7 +2,7 @@
 layout: post
 title:  fastlogging
 tagline: A faster replacement of the standard logging module with a mostly compatible API.
-date:   2018-01-08 23:00:37 +0100
+date:   2019-01-08 23:00:37 +0100
 categories: posts
 ---
 
