@@ -4,7 +4,7 @@
 
 Every `log.info(...)` call can block your hot path, serialize your threads, and slow down your I/O-bound workloads. That's why I created **fastlogging-rs**: a Rust-powered logging framework that is extremely fast, thread-safe, and available with a similar API in **8 different programming languages**.
 
-A new version (0.8.0) is available with the following changes compared to the version I've introduced here the last time:
+My first release, 0.8.1, is available with the following features:
 
 - Initial release of the Rust core (`fastlogging` crate) with bindings for Python, C, C++, Go, Java (FFM and JNI) and C#
 - Non-blocking, asynchronous logging — writers run in background threads
