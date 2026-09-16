@@ -35,7 +35,8 @@ When your application logs millions of messages, these speedups can turn minutes
 
 ### 🌍 One Framework, 8 Languages
 
-`fastlogging-rs` is written in Rust, but it speaks your language. All bindings share a similar API, so you can use the same logging concepts across your whole stack:
+`fastlogging-rs` is written in Rust and comes with thin wrappers for your favorite programming language. All bindings share a similar API,
+so you can use the same logging concepts across your whole stack:
 
 - **Rust** — `fastlogging` (native core)
 - **Python** — `pyfastlogging` (pyo3, >= 3.10)
@@ -49,7 +50,9 @@ When your application logs millions of messages, these speedups can turn minutes
 
 ### ⚡ Non-Blocking Architecture
 
-Logging calls are **non-blocking**: each call performs a cheap level check (a single integer comparison, no lock) and hands the message to a channel. A background `LoggingThread` drains that channel and dispatches to each writer's own thread. The speed of your writers never slows down your application — as long as the queue doesn't run full.
+Logging calls are **non-blocking**: each call performs a cheap level check (a single integer comparison, no lock) and hands the message to a channel.
+A background `LoggingThread` drains that channel and dispatches to each writer's own thread.
+The speed of your writers never slows down your application — as long as the queue doesn't run full.
 
 ### 🔧 Rich Feature Set
 

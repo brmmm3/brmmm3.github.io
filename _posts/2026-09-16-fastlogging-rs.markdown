@@ -51,7 +51,7 @@ When your application logs millions of messages, these speedups can turn minutes
 
 ### 🌍 One Framework, 8 Languages
 
-`fastlogging-rs` is written in Rust, but it speaks your language. All bindings share a similar API,
+`fastlogging-rs` is written in Rust and comes with thin wrappers for your favorite programming language. All bindings share a similar API,
 so you can use the same logging concepts across your whole stack:
 
 | Language   | Binding            | Layer                          |
